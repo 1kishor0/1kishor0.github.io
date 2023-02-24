@@ -940,6 +940,10 @@ form {
   #btnScrollToTop {
       display: none;
   }
+  .form-comtainer {
+    display: block;
+    margin: auto;
+  }
 }
 
 @media (max-width: 414px) {
@@ -956,6 +960,10 @@ form {
   #btnScrollToTop {
       display: none;
   }
+  .form-comtainer {
+    display: block;
+    margin: auto;
+  }
 }
 
 @media (max-width: 375px) {
@@ -971,6 +979,10 @@ form {
   }
   #btnScrollToTop {
       display: none;
+  }
+  .form-comtainer {
+    display: block;
+    margin: auto;
   }
 }
 
@@ -990,6 +1002,10 @@ form {
   }
   #btnScrollToTop {
       display: none;
+  }
+  .form-comtainer {
+    display: block;
+    margin: auto;
   }
 }
 
