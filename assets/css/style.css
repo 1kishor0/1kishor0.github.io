@@ -792,6 +792,7 @@ Contact Form In Footer
 *************/
 
 .display {
+  
   height: auto;
   width: auto;
   text-align: left;
@@ -907,7 +908,8 @@ form {
 }
 
 .form-comtainer {
-  display: flex;
+  display: block;
+  margin: auto;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
