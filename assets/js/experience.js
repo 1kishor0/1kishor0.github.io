@@ -5,10 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Junior Software Engineer",
+    cardImage: "assets/images/experience-page/Leads.png",
+    place: "Leads Corporation",
+    time: "(June, 2023 - Present)",
+   desp: "<li>In my role as a Junior Software Engineer, my primary responsibility entails the development of Core Banking software using the latest technologies such as .NET 6 and Vue.js 3.</li> ",
+  },
+  {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/Walton.png",
     place: "Walton",
-    time: "(March, 2023 - present)",
+    time: "(March, 2023 - June, 2023)",
    desp: "<li>As a software engineer at Walton, my main responsibility would be to develop, test, and maintain software applications and systems that support the company's operations</li> ",
   },
   {

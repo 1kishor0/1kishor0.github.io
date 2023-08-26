@@ -21,12 +21,12 @@ const research = [
   },
 
   {
-    title: "A Deep Learning Approach to predicting Dhaka Air quality with time series Analysis.",
+    title: "Time Series Analysis and Forecasting of Air Quality Index of Dhaka City of Bangladesh",
     authors:
-      "",
+      "Sheikh Rahmatulla Sakib, Kamarun Nahar Sara, Md. Tahmid Hossain Rasel, Md. Masudul Islam Asif, Md. Aynul Hasan Nahid, Md. Saifur Rahman, M. F. Mridha, Ashraful Islam",
     conferences:
-      "",
-    researchYr: "Ongoing",
+      "2023 IEEE World AI IoT Congress (AIIoT) Seattle, WA, USA",
+    researchYr: "10th June, 2023",
     citebox: "popup2",
     image: "assets/images/research-page/air.png",
     citation: {
@@ -34,7 +34,7 @@ const research = [
         "",
     },
     abstract:
-      "The results show that the ARIMA model has shown a good performance in predicting the daily AQI values at different locations in Dhaka city. The distribution of annual mean values obtained from this model shows that it is possible to predicted weekly and monthly forecasting AQI values when we consider time series analysis for more three one year instead of just one year.",
+      "In Dhaka, the capital city of Bangladesh, various sources including vehicle emissions, industrial activities, brick kilns, building sites, and open rubbish burning contribute to the air pollution problem. To assess the air quality, the Air Quality Index (AQI) is utilized, which categorizes air quality based on pollutant concentration. In this study, we have built ARIMA, Auto-ARIMA, SARIMAX, and VAR models to predict the air quality of Dhaka. Unlike previous studies, we have utilized hourly air pollutants factors such as PM 2.5 , PM 10 , SO 2 , CO, NO 2 , and O 3 to forecast air quality. Our novel approach enables us to predict the monthly and weekly air quality of Dhaka city. Our analysis reveals that the SARIMAX model, which takes into account seasonal patterns, trends, and external factors, is the most accurate in predicting Dhaka city’s air quality. The model’s prediction performance is assessed using statistical indicators such as mean absolute percentage error and root mean square error. The study highlights that the SARIMAX model could aid policymakers in evaluating the efficacy of air pollution control measures.",
     absbox: "absPopup2",
   },
 
@@ -63,7 +63,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <a href="https://ieeexplore.ieee.org/document/10174539"class="paperTitle"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
