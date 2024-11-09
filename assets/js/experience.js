@@ -5,10 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/fintechub.png",
+    place: "Fintech Hub LTD",
+    time: "(July, 2024 -  Present)",
+   desp: "<li>Experienced developer working on an agent banking solution using ASP.NET 8, AngularJS, and Oracle DB. Developed and integrated solo modules using Blazor .NET 8. Contributed to the successful delivery of the agent banking software. Collaborated on backend architecture and frontend development while optimizing database performance.</li> ",
+  },
+  {
     title: "Junior Software Engineer",
     cardImage: "assets/images/experience-page/Leads.png",
     place: "Leads Corporation",
-    time: "(June, 2023 - Present)",
+    time: "(June, 2023 - June, 2024)",
    desp: "<li>In my role as a Junior Software Engineer, my primary responsibility entails the development of Core Banking software using the latest technologies such as .NET 6 and Vue.js 3.</li> ",
   },
   {
